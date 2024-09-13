@@ -1,0 +1,6 @@
+@DesignPatterns.Strategy_HostAddress = http://localhost:5073
+
+GET {{DesignPatterns.Strategy_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

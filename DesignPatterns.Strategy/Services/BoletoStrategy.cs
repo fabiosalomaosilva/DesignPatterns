@@ -1,12 +1,11 @@
-﻿namespace DesignPatterns.Strategy.Services
+﻿namespace DesignPatterns.Strategy.Services;
+
+public class BoletoStrategy : IPagamentoStrategy
 {
-    public class BoletoStrategy : IPagamentoStrategy
+    public string ProcessarPagamento()
     {
-        public string ProcessarPagamento()
-        {
-            const string message = "Processando pagamento via Boleto";
-            Console.WriteLine(message);
-            return message;
-        }
+        const string message = "Processando pagamento via Boleto";
+        Console.WriteLine(message);
+        return message;
     }
 }
